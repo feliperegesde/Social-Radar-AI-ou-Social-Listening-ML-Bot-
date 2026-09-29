@@ -1,0 +1,11 @@
+# Ambientes virtuais e dependências
+venv/
+__pycache__/
+*.pyc
+
+# Arquivos sensíveis de configuração
+.env
+backend/.env
+
+# Modelos treinados locais (opcional, caso fiquem muito pesados para o Git)
+backend/models/*.pkl
